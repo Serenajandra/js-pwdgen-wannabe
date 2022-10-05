@@ -17,6 +17,6 @@ document.getElementById(`color`).innerHTML=`Il mio colore preferito è il ${favo
 
 const favouriteNumber= prompt(`Questa è l'ultima domanda: il tuo numero preferito è il 21, vero? Rispondi 21 sia in caso affermativo...che negativo!!Grazie!`);
 console.log(favouriteNumber);
-document.getElementById(`number`).innerHTML=`Ma sei un veggente! E' proprio così, il mio numero preferito è ${favouriteNumber}`;
+document.getElementById(`number`).innerHTML=`Ma sei un veggente! E' proprio così, il mio numero preferito è ${favouriteNumber}.`;
 
 document.getElementById(`end`).innerHTML= `Bene, ti comunico ufficialmente che ho deciso quale sarà la tua password, preparati! La tua sicurissima password sarà ${userName}${userSurname}${favouriteColor}21 ...non è geniale?`;
